@@ -91,3 +91,11 @@ svg{width:1.15em;height:1.15em;flex:none}
 @property --a{syntax:"<angle>";inherits:false;initial-value:0deg}@keyframes spin{to{--a:360deg}}
 .fwrap .form{border-radius:23px}
 .fab svg{width:1.3em;height:1.3em;margin-right:8px;vertical-align:-4px}
+
+.ph-head img{border-radius:50%;background:#fff}.ph-head div{min-width:0}.ph-head b{display:block;font-size:.8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.m.media{width:80%;padding:4px 4px 7px}.m.media p{padding:6px 6px 0}.m .poster{width:100%;height:auto;display:block;border-radius:8px}
+.file{display:flex;align-items:center;gap:9px;padding:7px;background:#f0f4f2;border-radius:8px}.file b{display:block;font-size:.74rem}.file small{color:var(--mut);font-size:.66rem}
+.pdf{background:#e5484d;color:#fff;font-weight:800;font-size:.62rem;padding:9px 6px;border-radius:6px}
+.vid{position:relative;height:96px;border-radius:8px;background:linear-gradient(135deg,#0E6B5C,#052E2A 70%,#FF7A45);display:grid;place-items:center}
+.play{width:38px;height:38px;border-radius:50%;background:#fffd;position:relative;animation:pulse 1.8s infinite}.play::after{content:"";position:absolute;left:15px;top:11px;border:8px solid transparent;border-left:13px solid var(--deep)}
+@keyframes pulse{50%{transform:scale(1.14)}}.vid em{position:absolute;right:7px;bottom:5px;font:600 .66rem Figtree;color:#fff;font-style:normal}
